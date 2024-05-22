@@ -4,6 +4,10 @@ Authors: Ilyass Moummad, Nicolas Farrugia, Romain Serizel, Jeremy Froidevaux, Vi
 
 ### Preprint: https://arxiv.org/abs/2403.09598
 
+-----
+Update : This work is accepted for EUSIPCO 2023 (Special Session: Signal Analysis for Biodiversity)
+-----
+
 We introduce a framework that leverages mixing regularization methods Mixup, Manifold Mixup, and MultiMix to handle multi-label and class imbalance on the [Anuraset](https://github.com/soundclim/anuraset) dataset.
 
 We base our code on the official implementation of AnuraSet baseline: https://github.com/soundclim/anuraset where you can find the link to download the dataset [AnuraSet](https://www.nature.com/articles/s41597-023-02666-2) \
