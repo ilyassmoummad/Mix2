@@ -4,6 +4,7 @@ parser = argparse.ArgumentParser()
 
 # Generic
 parser.add_argument("--rootdir", type=str, default='') #root directory for the dataset
+parser.add_argument("--dataset", type=str, default='anuraset') #whether to use the original split or remove non-overlapping (train/test) classes and silence examples ['anuraset', 'anuraset36', 'anuraset36n']
 parser.add_argument("--device", type=str, default='cuda') #device to train on
 parser.add_argument("--sr", type=int, default=16000) #sampling rate
 parser.add_argument("--workers", type=int, default=4) #number of workers
