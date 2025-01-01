@@ -137,5 +137,6 @@ for epoch in range(args.epochs):
             torch.save(nn.Sequential(encoder, projector), pt_filepath)
 
     print(f"Loss train: {loss_train}\tMacro F1-score: {metric_val}\tFreq: {f1_freq}\tCommon: {f1_common}\tRare: {f1_rare}")
-    
+
+print(f"Best scores:\nMacro F1-score: {best_score}\tFreq: {best_freq}\tCommon: {best_common}\tRare: {best_rare}")    
 print("Finished training")

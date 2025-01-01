@@ -15,7 +15,7 @@ parser.add_argument("--momentum", type=float, default=0.9) #SGD momentum
 parser.add_argument("--bs", type=int, default=128) #batch size for representation learning
 parser.add_argument("--mixnum", type=int, default=128) #number of generated samples in multimix
 parser.add_argument("--epochs", type=int, default=100) #nb of epochs to train the feature extractor on the training set
-parser.add_argument("--lr", type=float, default=1e-4) #learning rate 
+parser.add_argument("--lr", type=float, default=1e-2) #learning rate 
 parser.add_argument("--wd", type=float, default=1e-6) #weight decay
 parser.add_argument("--outdim", type=int, default=128) #output dimension of projector
 
