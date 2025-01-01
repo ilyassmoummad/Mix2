@@ -6,7 +6,7 @@
 
 Presented at EUSIPCO 2024 - Special Session on Signal Analysis for Biodiversity. Access the full paper [here](https://arxiv.org/abs/2403.09598).
 
-This project introduces a novel framework utilizing mixing regularization methods—Mixup, Manifold Mixup, and MultiMix—to address challenges in multi-label classification and class imbalance within the Anuraset dataset.
+This project introduces a framework utilizing mixing regularization methods—Mixup, Manifold Mixup, and MultiMix—to address challenges in multi-label classification and class imbalance within the Anuraset dataset.
 
 The implementation is based on the official AnuraSet baseline, available on [GitHub](https://github.com/soundclim/anuraset). You can also download the dataset directly from [Nature's publication](https://www.nature.com/articles/s41597-023-02666-2).
 
